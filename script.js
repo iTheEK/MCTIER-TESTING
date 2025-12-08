@@ -72,9 +72,9 @@ const players = [
   },
   {
     nick: "PimpoyoEscariote",
-    points: 38,
+    points: 35,
     skin: "https://render.crafty.gg/3d/bust/PimpoyoEscariote",
-    tiers: { Sword: "LT3", NethPot: "LT3", DiaPot: "LT3", Crystal: "LT2" }
+    tiers: { Sword: "LT4", NethPot: "LT3", DiaPot: "LT3", Crystal: "LT2" }
   },
   {
     nick: "NoSoyHenry",
@@ -175,6 +175,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
