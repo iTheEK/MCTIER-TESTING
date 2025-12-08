@@ -8,7 +8,7 @@ body {
 /* Tarjeta de jugador */
 .player-card {
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* nombre/puntos arriba, no centrados */
   justify-content: flex-start;
   background: #222;
   border: 1px solid #444;
@@ -30,27 +30,36 @@ body {
 /* Información del jugador */
 .player-info {
   text-align: left;
-  color: #ddd; /* gris claro para puntos y texto secundario */
+  color: #ddd; /* gris claro para puntos */
+  margin-bottom: 12px; /* separa del bloque de tiers */
 }
 
 .player-info strong {
-  color: #fff; /* nombre en blanco para que resalte */
+  display: block;
+  margin-bottom: 4px;
   font-size: 20px;
   font-weight: bold;
+  color: #fff; /* nombre en blanco */
+}
+
+.player-info span {
+  font-size: 14px;
+  color: #ccc; /* puntos en gris claro */
 }
 
 /* Badges de tiers */
 .tiers {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 5px;
+  gap: 6px; /* espacio entre badges */
+  padding-top: 8px;
+  border-top: 1px solid #444; /* línea sutil separadora */
 }
 
 .tier {
   background: #444;
   color: #fff; /* texto blanco */
   padding: 6px 10px;
-  margin: 3px;
   border-radius: 4px;
   font-size: 13px;
   font-weight: bold;
