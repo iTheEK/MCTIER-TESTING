@@ -1,6 +1,12 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
+         {
+    nick: "FerrasFornit2009",
+    points: 10,
+    skin: "https://render.crafty.gg/3d/bust/FerrasFornit2009",
+    tiers: { Uhc: "HT5", Sword: "LT4", NethPot: "LT5", Axe: " HT5", Crystal: "HT5" }
+  },
        {
     nick: "Reinsertada",
     points: 10,
@@ -163,6 +169,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
