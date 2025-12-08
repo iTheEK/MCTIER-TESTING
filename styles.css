@@ -5,6 +5,7 @@ body {
   text-align: center;
 }
 
+/* Tarjeta de jugador */
 .player-card {
   display: flex;
   align-items: center;
@@ -26,15 +27,19 @@ body {
   margin-right: 15px;
 }
 
+/* Información del jugador */
 .player-info {
   text-align: left;
+  color: #ddd; /* gris claro para puntos y texto secundario */
 }
 
 .player-info strong {
-  color: gold;
-  font-size: 18px;
+  color: #fff; /* nombre en blanco para que resalte */
+  font-size: 20px;
+  font-weight: bold;
 }
 
+/* Badges de tiers */
 .tiers {
   display: flex;
   flex-wrap: wrap;
@@ -42,13 +47,16 @@ body {
 }
 
 .tier {
-  background: #333;
-  padding: 5px 8px;
-  margin: 2px;
+  background: #444;
+  color: #fff; /* texto blanco */
+  padding: 6px 10px;
+  margin: 3px;
   border-radius: 4px;
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: bold;
 }
 
+/* Barra de búsqueda */
 #search {
   position: fixed;
   top: 20px;
