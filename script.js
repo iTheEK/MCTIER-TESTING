@@ -114,7 +114,7 @@ const players = [
   },
   {
     nick: "Vaso_ITSstreams",
-    points: 10,
+    points: 7,
     skin: "https://render.crafty.gg/3d/bust/Vaso_ITSstreams",
     tiers: { NethPot: "HT5", Crystal: "LT4", Mazo: "HT5" }
   }
@@ -181,6 +181,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
