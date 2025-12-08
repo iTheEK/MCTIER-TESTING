@@ -36,17 +36,16 @@ function renderPlayers(list) {
 
   list.sort((a, b) => b.points - a.points);
 
-  list.forEach(player => {
-    const card = document.createElement("div");
-    card.className = "player-card";
+  list.forEach((player, index) => {
+  const card = document.createElement("div");
+  card.className = "player-card";
 
-    const img = document.createElement("img");
-    img.src = player.skin;
+  const img = document.createElement("img");
+  img.src = player.skin;
 
-    const info = document.createElement("div");
-    info.className = "player-info";
-    info.innerHTML = `<strong>${player.nick}</strong><br>${player.points} puntos`;
-
+  const info = document.createElement("div");
+  info.className = "player-info";
+  info.innerHTML = `<strong>#${index + 1} ${player.nick}</strong><br>${player.points} puntos`;
     const tiers = document.createElement("div");
     tiers.className = "tiers";
 
@@ -72,4 +71,5 @@ document.getElementById("search").addEventListener("input", e => {
 
 
 renderPlayers(players);
+
 
