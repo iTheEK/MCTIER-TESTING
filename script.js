@@ -42,6 +42,17 @@ const players = [
       Crystal: "HT5",
       Mazo: "HT5"
     }
+ },
+  {
+    nick: "NoSoyHenry",
+    points: 12,
+    skin: "https://render.crafty.gg/3d/bust/NoSoyHenry",
+    tiers: {
+      Uhc: "LT4",
+      Sword: "LT4",
+      Crystal: "LT4",
+      Mazo: "LT4"    
+    }
   }
 ];
 
@@ -103,3 +114,4 @@ document.getElementById("search").addEventListener("input", e => {
 });
 
 renderPlayers(players);
+
