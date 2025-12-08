@@ -27,9 +27,9 @@ const players = [
   },
   {
     nick: "_vxzll",
-    points: 4,
+    points: 3,
     skin: "https://render.crafty.gg/3d/bust/_vxzll",
-    tiers: { Sword: "LT3" }
+    tiers: { Sword: "LT4" }
   },
   {
     nick: "Foller_MC",
@@ -157,6 +157,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
