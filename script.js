@@ -15,9 +15,9 @@ const players = [
   },
   {
     nick: "Foller_MC",
-    points: 10,
+    points: 22,
     skin: "https://render.crafty.gg/3d/bust/Foller_MC",
-    tiers: { Sword: "HT3" }
+    tiers: { Sword: "HT3", Uhc: "LT3", Axe: "HT4", Crystal: "HT5" }
   },
   {
     nick: "ImDzku_",
@@ -27,9 +27,56 @@ const players = [
       Uhc: "HT5", Sword: "LT5", Axe: "HT5", NethPot: "LT5",
       SMP: "HT5", DiaPot: "LT5", Crystal: "HT5", Mazo: "HT5"
     }
+  },
+  {
+    nick: "Kanatzz",
+    points: 14,
+    skin: "https://render.crafty.gg/3d/bust/Kanatzz",
+    tiers: { Sword: "HT4", Crystal: "HT3" }
+  },
+  {
+    nick: "PimpoyoEscariote",
+    points: 38,
+    skin: "https://render.crafty.gg/3d/bust/PimpoyoEscariote",
+    tiers: { Sword: "LT3", NethPot: "LT3", DiaPot: "LT3", Crystal: "LT2" }
+  },
+  {
+    nick: "NoSoyHenry",
+    points: 15,
+    skin: "https://render.crafty.gg/3d/bust/Foller_MC",
+    tiers: { Uhc: "LT4", Sword: "LT4", SMP: "LT4", Crystal: "LT4", Mazo: "LT4" }
+  },
+  {
+    nick: "Alquix_",
+    points: 18,
+    skin: "https://render.crafty.gg/3d/bust/Alquix_",
+    tiers: { Uhc: "LT3", Sword: "LT3", SMP: "LT3" }
+  },
+  {
+    nick: "Resuelve",
+    points: 19,
+    skin: "https://render.crafty.gg/3d/bust/Resuelve",
+    tiers: { Sword: "LT3", NethPot: "LT4", Crystal: "HT3" }
+  },
+  {
+    nick: "SKAILLGG",
+    points: 6,
+    skin: "https://render.crafty.gg/3d/bust/SKAILLGG",
+    tiers: { Sword: "LT3" }
+  },
+  {
+    nick: "naqm",
+    points: 10,
+    skin: "https://render.crafty.gg/3d/bust/naqm",
+    tiers: { Sword: "HT4", Crystal: "LT3" }
+  },
+  {
+    nick: "Vaso_ITSstreams",
+    points: 10,
+    skin: "https://render.crafty.gg/3d/bust/Foller_MC",
+    tiers: { NethPot: "HT5", Crystal: "LT4", Mazo: "HT5" }
   }
 ];
-
 // Calcular ranking global
 const rankedPlayers = players
   .slice()
@@ -92,3 +139,4 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
