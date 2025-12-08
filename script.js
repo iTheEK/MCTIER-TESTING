@@ -50,10 +50,7 @@ function renderPlayers(list) {
     else if (player.rank === 2) card.classList.add("silver");
     else if (player.rank === 3) card.classList.add("bronze");
 
-    // Bloque superior: rank + avatar + info
-    const top = document.createElement("div");
-    top.className = "player-top";
-
+    // Número grande de posición
     const rankSlot = document.createElement("div");
     rankSlot.className = "rank-slot";
     rankSlot.textContent = `#${player.rank}`;
@@ -61,15 +58,12 @@ function renderPlayers(list) {
     const img = document.createElement("img");
     img.src = player.skin;
 
+    // Bloque de info (nick + puntos + tiers juntos)
     const info = document.createElement("div");
     info.className = "player-info";
-    info.innerHTML = `<strong>${player.nick}</strong><span>${player.points} puntos</span>`;
+    info.innerHTML = `<strong>${player.nick}</strong><br><span>${player.points} puntos</span>`;
 
-    top.appendChild(rankSlot);
-    top.appendChild(img);
-    top.appendChild(info);
-
-    // Bloque inferior: tiers
+    // Bloque de tiers (separado con margen)
     const tiers = document.createElement("div");
     tiers.className = "tiers";
     for (const [mode, tier] of Object.entries(player.tiers)) {
@@ -79,19 +73,14 @@ function renderPlayers(list) {
       tiers.appendChild(badge);
     }
 
-    // Ensamblar tarjeta
-    card.appendChild(top);
+    // Ensamblar tarjeta horizontal: rank + avatar + info + tiers
+    card.appendChild(rankSlot);
+    card.appendChild(img);
+    card.appendChild(info);
     card.appendChild(tiers);
     container.appendChild(card);
   });
 }
 
 // Buscador
-document.getElementById("search").addEventListener("input", (e) => {
-  const query = e.target.value.toLowerCase();
-  const filtered = rankedPlayers.filter(p => p.nick.toLowerCase().includes(query));
-  renderPlayers(filtered.length ? filtered : rankedPlayers);
-});
-
-// Render inicial
-renderPlayers(rankedPlayers);
+document.getElementById("search").addEventListener
