@@ -1,4 +1,5 @@
 // Lista de jugadores
+// Lista de jugadores
 const players = [
   {
     nick: "Neziepls",
@@ -83,4 +84,11 @@ function renderPlayers(list) {
 }
 
 // Buscador
-document.getElementById("search").addEventListener
+document.getElementById("search").addEventListener("input", (e) => {
+  const query = e.target.value.toLowerCase();
+  const filtered = rankedPlayers.filter(p => p.nick.toLowerCase().includes(query));
+  renderPlayers(filtered.length ? filtered : rankedPlayers);
+});
+
+// Render inicial
+renderPlayers(rankedPlayers);
