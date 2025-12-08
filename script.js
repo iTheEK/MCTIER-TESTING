@@ -90,9 +90,9 @@ const players = [
   },
   {
     nick: "Resuelve",
-    points: 19,
+    points: 25,
     skin: "https://render.crafty.gg/3d/bust/Resuelve",
-    tiers: { Sword: "LT3", NethPot: "LT4", Crystal: "HT3" }
+    tiers: { Sword: "LT3", NethPot: "LT4",Diapot: "LT3", Crystal: "HT3" }
   },
   {
     nick: "SKAILLGG",
@@ -175,6 +175,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
