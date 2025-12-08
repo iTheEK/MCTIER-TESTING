@@ -1,6 +1,18 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
+    {
+    nick: "Santinator_120T",
+    points: 15,
+    skin: "https://render.crafty.gg/3d/bust/Santinator_120T",
+    tiers: { Uhc: "LT4", Sword: "LT4", NethPot: "LT5", Axe: "LT4", Smp: "LT4", DiaPot: "LT5", Crystal: "LT5" }
+  },
+    {
+    nick: "Kleveri_Tea",
+    points: 25,
+    skin: "https://render.crafty.gg/3d/bust/Kleveri_Tea",
+    tiers: { Uhc: "LT3", Sword: "LT3", Nethpot: "LT4", Smp: "LT3", Diapot: "LT3", Axe: "LT5" }
+  },
   {
     nick: "Neziepls",
     points: 18,
@@ -139,6 +151,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
