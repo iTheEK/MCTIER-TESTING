@@ -3,7 +3,7 @@
 const players = [
      {
     nick: "thiagocpvp",
-    points: 0,
+    points: 7,
     skin: "https://render.crafty.gg/3d/bust/thiagocpvp",
     tiers: { Sword: "LT5", NethPot: "LT5", DiaPot: "LT5", Crystal: "HT5", Mazo: "HT5" }
   },
@@ -157,6 +157,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
