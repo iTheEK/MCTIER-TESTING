@@ -43,7 +43,7 @@ const players = [
   {
     nick: "NoSoyHenry",
     points: 15,
-    skin: "https://render.crafty.gg/3d/bust/Foller_MC",
+    skin: "https://render.crafty.gg/3d/bust/Vaso_ITSstreams",
     tiers: { Uhc: "LT4", Sword: "LT4", SMP: "LT4", Crystal: "LT4", Mazo: "LT4" }
   },
   {
@@ -73,7 +73,7 @@ const players = [
   {
     nick: "Vaso_ITSstreams",
     points: 10,
-    skin: "https://render.crafty.gg/3d/bust/Foller_MC",
+    skin: "https://render.crafty.gg/3d/bust/Vaso_ITSstreams",
     tiers: { NethPot: "HT5", Crystal: "LT4", Mazo: "HT5" }
   }
 ];
@@ -139,4 +139,5 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
