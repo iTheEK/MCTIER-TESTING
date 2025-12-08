@@ -11,6 +11,22 @@ const players = [
       Crystal: "LT4"
     }
   }
+   {
+    nick: "_vxzll",
+    points: 4,
+    skin: "https://render.crafty.gg/3d/bust/_vxzll",
+    tiers: {
+      sword: "HT4"
+    }
+  }
+   {
+    nick: "Foller_MC",
+    points: 10,
+    skin: "https://render.crafty.gg/3d/bust/Foller_MC",
+    tiers: {
+      sword: "HT3"
+    }
+  }
 ];
 
 function renderPlayers(list) {
@@ -52,5 +68,6 @@ document.getElementById("search").addEventListener("input", e => {
   const filtered = players.filter(p => p.nick.toLowerCase().includes(query));
   renderPlayers(filtered);
 });
+
 
 renderPlayers(players);
