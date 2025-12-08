@@ -1,6 +1,12 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
+       {
+    nick: "Reinsertada",
+    points: 10,
+    skin: "https://render.crafty.gg/3d/bust/Reinsertada",
+    tiers: { Sword: "HT3" }
+  },
      {
     nick: "thiagocpvp",
     points: 7,
@@ -157,6 +163,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
