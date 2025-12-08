@@ -57,6 +57,8 @@ body {
   border-radius: 5px;
   border: 1px solid #444;
 }
+
+/* Fondos especiales para top 3 */
 .player-card.gold {
   background: linear-gradient(90deg, #FFD700, #FFA500);
   color: #000;
@@ -71,3 +73,23 @@ body {
   background: linear-gradient(90deg, #CD7F32, #A0522D);
   color: #000;
 }
+
+/* Slot del número de ranking */
+.rank-slot {
+  width: 48px;
+  min-width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background: #333;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+/* Colores del número para top 3 */
+.player-card.gold .rank-slot { background: #FFD700; color: #000; }
+.player-card.silver .rank-slot { background: #C0C0C0; color: #000; }
+.player-card.bronze .rank-slot { background: #CD7F32; color: #000; }
