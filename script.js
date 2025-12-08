@@ -5,9 +5,9 @@ const players = [
     points: 18,
     skin: "https://render.crafty.gg/3d/bust/Neziepls",
     tiers: {
-      sword: "HT4",
-      axe: "LT4",
-      UHC: "HT4",
+      Sword: "HT4",
+      Axe: "LT4",
+      Uhc: "HT4",
       NethPot: "HT4",
       Crystal: "LT4"
     }
@@ -17,7 +17,7 @@ const players = [
     points: 4,
     skin: "https://render.crafty.gg/3d/bust/_vxzll",
     tiers: {
-      sword: "HT4"
+      Sword: "HT4"
     }
   },
   {
@@ -25,7 +25,22 @@ const players = [
     points: 10,
     skin: "https://render.crafty.gg/3d/bust/Foller_MC",
     tiers: {
-      sword: "HT3"
+      Sword: "HT3"
+    }
+  },
+  {
+    nick: "ImDzku_",
+    points: 13,
+    skin: "https://render.crafty.gg/3d/bust/ImDzku_",
+    tiers: {
+      Uhc: "HT5",
+      Sword: "LT5",
+      Axe: "HT5",
+      NethPot: "LT5",
+      Smp: "HT5",
+      DiaPot: "LT5",
+      Crystal: "HT5",
+      Mazo: "HT5"
     }
   }
 ];
