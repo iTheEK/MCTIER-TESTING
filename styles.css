@@ -57,3 +57,17 @@ body {
   border-radius: 5px;
   border: 1px solid #444;
 }
+.player-card.gold {
+  background: linear-gradient(90deg, #FFD700, #FFA500);
+  color: #000;
+}
+
+.player-card.silver {
+  background: linear-gradient(90deg, #C0C0C0, #A9A9A9);
+  color: #000;
+}
+
+.player-card.bronze {
+  background: linear-gradient(90deg, #CD7F32, #A0522D);
+  color: #000;
+}
