@@ -1,6 +1,12 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
+     {
+    nick: "thiagocpvp",
+    points: 0,
+    skin: "https://render.crafty.gg/3d/bust/thiagocpvp",
+    tiers: { Sword: "LT5", NethPot: "LT5", DiaPot: "LT5", Crystal: "HT5", Mazo: "HT5" }
+  },
     {
     nick: "Santinator_120T",
     points: 15,
@@ -151,6 +157,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
