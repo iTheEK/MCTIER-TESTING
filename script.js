@@ -1,5 +1,4 @@
-// HOLAAA
-// Datos base
+// Lista de jugadores
 const players = [
   {
     nick: "Neziepls",
@@ -30,29 +29,31 @@ const players = [
   }
 ];
 
-// 1) Construir lista con ranking global
+// Calcular ranking global
 const rankedPlayers = players
-  .slice() // copia
-  .sort((a, b) => b.points - a.points) // ordenar por puntos
-  .map((p, i) => ({ ...p, rank: i + 1 })); // asignar rank 1..n
+  .slice()
+  .sort((a, b) => b.points - a.points)
+  .map((p, i) => ({ ...p, rank: i + 1 }));
 
 function renderPlayers(list) {
   const container = document.getElementById("player-list");
   container.innerHTML = "";
 
-  // 2) Ordenar por rank para que se muestren en su orden real
   const byRank = list.slice().sort((a, b) => a.rank - b.rank);
 
   byRank.forEach((player) => {
     const card = document.createElement("div");
     card.className = "player-card";
 
-    // Estilos especiales según rank real (no según índice del filtro)
+    // Estilos especiales para top 3
     if (player.rank === 1) card.classList.add("gold");
     else if (player.rank === 2) card.classList.add("silver");
     else if (player.rank === 3) card.classList.add("bronze");
 
-    // Número grande de posición (slot)
+    // Bloque superior: rank + avatar + info
+    const top = document.createElement("div");
+    top.className = "player-top";
+
     const rankSlot = document.createElement("div");
     rankSlot.className = "rank-slot";
     rankSlot.textContent = `#${player.rank}`;
@@ -62,8 +63,13 @@ function renderPlayers(list) {
 
     const info = document.createElement("div");
     info.className = "player-info";
-    info.innerHTML = `<strong>${player.nick}</strong><br>${player.points} puntos`;
+    info.innerHTML = `<strong>${player.nick}</strong><span>${player.points} puntos</span>`;
 
+    top.appendChild(rankSlot);
+    top.appendChild(img);
+    top.appendChild(info);
+
+    // Bloque inferior: tiers
     const tiers = document.createElement("div");
     tiers.className = "tiers";
     for (const [mode, tier] of Object.entries(player.tiers)) {
@@ -73,20 +79,19 @@ function renderPlayers(list) {
       tiers.appendChild(badge);
     }
 
-    card.appendChild(rankSlot);
-    card.appendChild(img);
-    card.appendChild(info);
+    // Ensamblar tarjeta
+    card.appendChild(top);
     card.appendChild(tiers);
     container.appendChild(card);
   });
 }
 
-// 3) Buscador: filtra sin perder el rank
+// Buscador
 document.getElementById("search").addEventListener("input", (e) => {
   const query = e.target.value.toLowerCase();
   const filtered = rankedPlayers.filter(p => p.nick.toLowerCase().includes(query));
   renderPlayers(filtered.length ? filtered : rankedPlayers);
 });
 
-// Render inicial con ranking global
+// Render inicial
 renderPlayers(rankedPlayers);
