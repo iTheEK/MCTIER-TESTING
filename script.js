@@ -10,7 +10,7 @@ const players = [
       NethPot: "HT4",
       Crystal: "LT4"
     }
-  }
+  },
    {
     nick: "_vxzll",
     points: 4,
@@ -18,7 +18,7 @@ const players = [
     tiers: {
       sword: "HT4"
     }
-  }
+  },
    {
     nick: "Foller_MC",
     points: 10,
@@ -71,3 +71,4 @@ document.getElementById("search").addEventListener("input", e => {
 
 
 renderPlayers(players);
+
