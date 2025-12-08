@@ -71,4 +71,3 @@ document.getElementById("search").addEventListener("input", e => {
 
 
 renderPlayers(players);
-
