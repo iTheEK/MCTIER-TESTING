@@ -3,7 +3,7 @@
 const players = [
     {
     nick: "MalisimoMC",
-    points: 0,
+    points: 3,
     skin: "https://render.crafty.gg/3d/bust/MalisimoMC",
     tiers: { NethPot: "LT4" }
   },
@@ -223,6 +223,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
