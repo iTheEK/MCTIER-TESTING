@@ -1,11 +1,29 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
+          {
+    nick: "Soylt3dementira",
+    points: 6,
+    skin: "https://render.crafty.gg/3d/bust/Soylt3dementira",
+    tiers: { NethPot: "LT3" }
+  },
+          {
+    nick: "zTheCris_",
+    points: 2,
+    skin: "https://render.crafty.gg/3d/bust/zTheCris_",
+    tiers: { Crystal: "HT5" }
+  },
+        {
+    nick: "XxX_Sarx",
+    points: 4,
+    skin: "https://render.crafty.gg/3d/bust/XxX_Sarx",
+    tiers: { Crystal: "LT4", Mazo: "LT5" }
+  },
         {
     nick: "RickyEdits",
-    points: 9,
+    points: 12,
     skin: "https://render.crafty.gg/3d/bust/RickyEdits",
-    tiers: { Uhc: "LT3", NethPot: "LT4" }
+    tiers: { Uhc: "LT3", NethPot: "LT3" }
   },
       {
     nick: "Kevin__",
@@ -143,10 +161,10 @@ const players = [
     tiers: { Uhc: "LT4", Sword: "LT4", SMP: "LT4", Crystal: "LT4", Mazo: "LT4" }
   },
   {
-    nick: "Alquix_",
-    points: 18,
-    skin: "https://render.crafty.gg/3d/bust/Alquix_",
-    tiers: { Uhc: "LT3", Sword: "LT3", SMP: "LT3" }
+    nick: "alquixss",
+    points: 24,
+    skin: "https://render.crafty.gg/3d/bust/alquixss",
+    tiers: { Uhc: "LT3", Sword: "LT3", NethPot: "LT3", SMP: "LT3" }
   },
   {
     nick: "Resuelve",
@@ -235,6 +253,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
