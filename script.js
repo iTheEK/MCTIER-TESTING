@@ -21,9 +21,9 @@ const players = [
   },
           {
     nick: "Reishtd",
-    points: 14,
+    points: 18,
     skin: "https://render.crafty.gg/3d/bust/Reishtd",
-    tiers: { Uhc: "HT4", Sword: "HT4", Crystal: "LT3" }
+    tiers: { Uhc: "HT4", Sword: "HT4", NethPot: "HT4", Crystal: "LT3" }
   },
         {
     nick: "imevin",
@@ -217,6 +217,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
