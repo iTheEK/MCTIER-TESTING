@@ -1,6 +1,12 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
+          {
+    nick: "Reishtd",
+    points: 14,
+    skin: "https://render.crafty.gg/3d/bust/Reishtd",
+    tiers: { Uhc: "HT4", Sword: "HT4", Crystal: "LT3" }
+  },
         {
     nick: "imevin",
     points: 12,
@@ -193,6 +199,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
