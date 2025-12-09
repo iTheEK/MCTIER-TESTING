@@ -1,6 +1,12 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
+              {
+    nick: "Sharpwa",
+    points: 26,
+    skin: "https://render.crafty.gg/3d/bust/Sharpwa",
+    tiers: { Uhc: "HT4", Sword: "LT3", NethPot: "LT3", Axe: " HT4", Crystal: "LT3" }
+  },
             {
     nick: "Artij",
     points: 4,
@@ -211,6 +217,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
