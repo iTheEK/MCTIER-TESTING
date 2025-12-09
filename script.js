@@ -1,6 +1,12 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
+    {
+    nick: "MalisimoMC",
+    points: 0,
+    skin: "https://render.crafty.gg/3d/bust/MalisimoMC",
+    tiers: { NethPot: "LT4" }
+  },
               {
     nick: "Sharpwa",
     points: 26,
@@ -217,6 +223,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
