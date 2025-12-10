@@ -1,6 +1,30 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
+              {
+    nick: "MRZOMBIEGOD",
+    points: 1,
+    skin: "https://render.crafty.gg/3d/bust/MRZOMBIEGOD",
+    tiers: { Crystal: "LT5" }
+  },
+              {
+    nick: "iLovelit",
+    points: 1,
+    skin: "https://render.crafty.gg/3d/bust/iLovelit",
+    tiers: { Crystal: "LT5" }
+  },
+              {
+    nick: "zzfio",
+    points: 1,
+    skin: "https://render.crafty.gg/3d/bust/zzfio",
+    tiers: { Crystal: "LT5" }
+  },
+              {
+    nick: "User",
+    points: 10,
+    skin: "https://render.crafty.gg/3d/bust/user",
+    tiers: { Sword: "LT3", DiaPot: "LT4", Crystal: "LT5" }
+  },
             {
     nick: "1vxrzide",
     points: 5,
@@ -45,9 +69,9 @@ const players = [
   },
               {
     nick: "Sharpwa",
-    points: 26,
+    points: 34,
     skin: "https://render.crafty.gg/3d/bust/Sharpwa",
-    tiers: { Uhc: "HT4", Sword: "LT3", NethPot: "LT3", Axe: " HT4", Crystal: "LT3" }
+    tiers: { Uhc: "LT3", Sword: "LT3", NethPot: "LT3", Axe: " HT4", DiaPot: "LT3", Crystal: "LT3" }
   },
             {
     nick: "Artij",
@@ -117,9 +141,9 @@ const players = [
   },
     {
     nick: "Kleveri_Tea",
-    points: 29,
+    points: 32,
     skin: "https://render.crafty.gg/3d/bust/Kleveri_Tea",
-    tiers: { Uhc: "LT3", Sword: "LT3", Nethpot: "LT4", Smp: "LT3", Diapot: "LT3", Axe: "LT5", Crystal: "LT5" }
+    tiers: { Uhc: "LT3", Sword: "LT3", Nethpot: "LT3", Smp: "LT3", Diapot: "LT3", Axe: "LT5", Crystal: "LT5" }
   },
   {
     nick: "Neziepls",
@@ -259,6 +283,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
