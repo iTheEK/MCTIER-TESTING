@@ -20,9 +20,9 @@ const players = [
     tiers: { Crystal: "LT5" }
   },
               {
-    nick: "User",
+    nick: "OmniJoe",
     points: 10,
-    skin: "https://render.crafty.gg/3d/bust/user",
+    skin: "https://render.crafty.gg/3d/bust/OmniJoe",
     tiers: { Sword: "LT3", DiaPot: "LT4", Crystal: "LT5" }
   },
             {
@@ -283,6 +283,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
