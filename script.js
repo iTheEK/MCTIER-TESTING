@@ -1,6 +1,12 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
+      {
+    nick: "Tarolero",
+    points: 6,
+    skin: "https://render.crafty.gg/3d/bust/Tarolero",
+    tiers: { Uhc: "LT5", Sword: "HT5", NethPot: "LT5",Crystal: "HT5" }
+  },
     {
     nick: "ItzRealMeBS900",
     points: 10,
@@ -289,6 +295,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
