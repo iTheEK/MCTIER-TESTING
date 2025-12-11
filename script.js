@@ -135,9 +135,9 @@ const players = [
   },
     {
     nick: "qrrstr",
-    points: 14,
+    points: 16,
     skin: "https://render.crafty.gg/3d/bust/qrrstr",
-    tiers: { Uhc: "LT5", Sword: "LT5", NethPot: "HT4", Axe: " LT5", Smp: "LT5", DiaPot: "LT5", Crystal: "HT4", Mazo: "LT5" }
+    tiers: { Uhc: "LT5", Sword: "LT5", NethPot: "HT4", Axe: " LT5", Smp: "LT5", DiaPot: "LT5", Crystal: "LT3", Mazo: "LT5" }
   },
     {
     nick: "FerrasFornit2009",
@@ -307,6 +307,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
