@@ -1,6 +1,42 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
+           {
+    nick: "MascotaDeAlan",
+    points: 6,
+    skin: "https://render.crafty.gg/3d/bust/MascotaDeAlan",
+    tiers: { Uhc: "LT3" }
+  },
+           {
+    nick: "ShokiOxzz",
+    points: 3,
+    skin: "https://render.crafty.gg/3d/bust/ShokiOxzz",
+    tiers: { Sword: "LT5", Axe: "HT5" }
+  },
+           {
+    nick: "imseet",
+    points: 1,
+    skin: "https://render.crafty.gg/3d/bust/imseet",
+    tiers: { Smp: "LT5" }
+  },
+           {
+    nick: "Lsonly_",
+    points: 12,
+    skin: "https://render.crafty.gg/3d/bust/Lsonly_",
+    tiers: { Uhc: "LT3", NethPot: "LT3" }
+  },
+           {
+    nick: "cookedfr_",
+    points: 6,
+    skin: "https://render.crafty.gg/3d/bust/cookedfr_",
+    tiers: { Uhc: "LT3", }
+  },
+           {
+    nick: "Alstardust",
+    points: 3,
+    skin: "https://render.crafty.gg/3d/bust/Alstardust",
+    tiers: { NethPot: "LT4"  }
+  },
           {
     nick: "Phonexi",
     points: 6,
@@ -63,9 +99,9 @@ const players = [
   },
           {
     nick: "zTheCris_",
-    points: 2,
+    points: 1,
     skin: "https://render.crafty.gg/3d/bust/zTheCris_",
-    tiers: { Crystal: "HT5" }
+    tiers: { Crystal: "LT5" }
   },
         {
     nick: "XxX_Sarx",
@@ -93,9 +129,9 @@ const players = [
   },
               {
     nick: "Sharpwa",
-    points: 35,
+    points: 41,
     skin: "https://render.crafty.gg/3d/bust/Sharpwa",
-    tiers: { Uhc: "LT3", Sword: "LT3", NethPot: "LT3", Axe: "LT3", DiaPot: "LT3", Crystal: "LT3" }
+    tiers: { Uhc: "LT3", Sword: "LT3", NethPot: "LT3", Axe: "LT3", SMP: "HT4", DiaPot: "LT3", Crystal: "LT3", Mazo: "LT5" }
   },
             {
     nick: "Artij",
@@ -111,9 +147,9 @@ const players = [
   },
           {
     nick: "Reishtd",
-    points: 18,
+    points: 20,
     skin: "https://render.crafty.gg/3d/bust/Reishtd",
-    tiers: { Uhc: "HT4", Sword: "HT4", NethPot: "HT4", Crystal: "LT3" }
+    tiers: { Uhc: "HT4", Sword: "HT4", NethPot: "LT3", Crystal: "LT3" }
   },
         {
     nick: "imevin",
@@ -307,6 +343,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
