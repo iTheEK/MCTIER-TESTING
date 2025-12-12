@@ -129,9 +129,9 @@ const players = [
   },
               {
     nick: "Sharpwa",
-    points: 41,
+    points: 0,
     skin: "https://render.crafty.gg/3d/bust/Sharpwa",
-    tiers: { Uhc: "LT3", Sword: "LT3", NethPot: "LT3", Axe: "LT3", SMP: "HT4", DiaPot: "LT3", Crystal: "LT3", Mazo: "LT5" }
+    tiers: {  }
   },
             {
     nick: "Artij",
@@ -343,6 +343,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
