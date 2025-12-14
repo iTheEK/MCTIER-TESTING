@@ -129,9 +129,9 @@ const players = [
   },
               {
     nick: "Sharpwa",
-    points: 0,
+    points: 1,
     skin: "https://render.crafty.gg/3d/bust/Sharpwa",
-    tiers: {  }
+    tiers: { Mazo: "LT5" }
   },
             {
     nick: "Artij",
@@ -343,6 +343,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
