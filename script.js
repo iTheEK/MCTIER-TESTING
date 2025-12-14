@@ -3,7 +3,7 @@
 const players = [
             {
     nick: "6yyyyyyyyyyyyyyy",
-    points: 0,
+    points: 2,
     skin: "https://render.crafty.gg/3d/bust/6yyyyyyyyyyyyyyy",
     tiers: { Sword: "HT5" }
   },
@@ -349,6 +349,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
