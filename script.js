@@ -146,10 +146,10 @@ const players = [
     tiers: { Sword: "LT4" }
   },
           {
-    nick: "Reishtd",
-    points: 20,
+    nick: "imseet",
+    points: 22,
     skin: "https://render.crafty.gg/3d/bust/Reishtd",
-    tiers: { Uhc: "HT4", Sword: "HT4", NethPot: "LT3", Crystal: "LT3" }
+    tiers: { Uhc: "HT4", Sword: "HT4", NethPot: "LT3", Crystal: "LT3", Mazo: "HT5" }
   },
         {
     nick: "imevin",
@@ -343,6 +343,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
