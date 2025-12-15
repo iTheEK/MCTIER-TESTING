@@ -225,9 +225,9 @@ const players = [
   },
     {
     nick: "Kleveri_Tea",
-    points: 29,
+    points: 35,
     skin: "https://render.crafty.gg/3d/bust/Kleveri_Tea",
-    tiers: { Uhc: "LT3", Sword: "LT3", Nethpot: "LT3", Smp: "HT5", Diapot: "LT3", Axe: "HT5", Crystal: "LT5" }
+    tiers: { Uhc: "LT3", Sword: "LT3", Nethpot: "LT3", Smp: "LT3", Diapot: "LT3", Axe: "HT5", Crystal: "LT5", Mazo: "HT5" }
   },
   {
     nick: "Neziepls",
@@ -367,6 +367,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
