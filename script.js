@@ -17,7 +17,7 @@ const players = [
     nick: "shadyluxz",
     points: 1,
     skin: "https://render.crafty.gg/3d/bust/User",
-    tiers: { NethPot: "LT5 }
+    tiers: { NethPot: "LT5" }
   },
              {
     nick: "lagatitademateo",
@@ -367,6 +367,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
