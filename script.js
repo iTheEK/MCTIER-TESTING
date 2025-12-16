@@ -1,6 +1,24 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
+       {
+    nick: "Anderqzx",
+    points: 1,
+    skin: "https://render.crafty.gg/3d/bust/Anderqzx",
+    tiers: { NethPot: "LT5" }
+  },
+       {
+    nick: "Piero26a",
+    points: 3,
+    skin: "https://render.crafty.gg/3d/bust/Piero26a",
+    tiers: { Crystal: "LT4" }
+  },
+       {
+    nick: "Gomezito57",
+    points: 4,
+    skin: "https://render.crafty.gg/3d/bust/Gomezito57",
+    tiers: { Crystal: "HT4" }
+  },
       {
     nick: "NotName2",
     points: 4,
@@ -415,6 +433,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
