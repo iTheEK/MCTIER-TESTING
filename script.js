@@ -1,6 +1,30 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
+           {
+    nick: "ivnvnvy",
+    points: 6,
+    skin: "https://render.crafty.gg/3d/bust/ivnvnvy",
+    tiers: { Crystal: "LT3" }
+  },
+           {
+    nick: "Sasiilver",
+    points: 3,
+    skin: "https://render.crafty.gg/3d/bust/Sasiilver",
+    tiers: { Crystal: "LT4" }
+  },
+           {
+    nick: "Tarolero",
+    points: 1,
+    skin: "https://render.crafty.gg/3d/bust/Tarolero",
+    tiers: { Crystal: "LT5" }
+  },
+           {
+    nick: "Erick12eq",
+    points: 3,
+    skin: "https://render.crafty.gg/3d/bust/Erick12eq",
+    tiers: { Crystal: "LT4" }
+  },
           {
     nick: "Spreendmc_23",
     points: 1,
@@ -457,6 +481,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
