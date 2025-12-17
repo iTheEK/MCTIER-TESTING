@@ -1,6 +1,18 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
+          {
+    nick: "Spreendmc_23",
+    points: 1,
+    skin: "https://render.crafty.gg/3d/bust/Spreendmc_23",
+    tiers: { Crystal: "LT5" }
+  },
+          {
+    nick: "Kezoxito",
+    points: 2,
+    skin: "https://render.crafty.gg/3d/bust/Kezoxito",
+    tiers: { Crystal: "HT5" }
+  },
          {
     nick: "Kezoxito",
     points: 2,
@@ -445,6 +457,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
