@@ -1,6 +1,48 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
+            {
+    nick: "p1xelreaper",
+    points: 3,
+    skin: "https://render.crafty.gg/3d/bust/p1xelreaper",
+    tiers: { Crystal: "LT4" }
+  },
+            {
+    nick: "ian002",
+    points: 1,
+    skin: "https://render.crafty.gg/3d/bust/ian002",
+    tiers: { Mazo: "LT5"  }
+  },
+            {
+    nick: "eneaslara",
+    points: 2,
+    skin: "https://render.crafty.gg/3d/bust/eneaslara",
+    tiers: { Sword: "HT5" }
+  },
+            {
+    nick: "Rubepro22",
+    points: 2,
+    skin: "https://render.crafty.gg/3d/bust/Rubepro22",
+    tiers: { Sword: "HT5" }
+  },
+            {
+    nick: "IloveLit",
+    points: 1,
+    skin: "https://render.crafty.gg/3d/bust/IloveLit",
+    tiers: { Crystal: "LT5" }
+  },
+            {
+    nick: "XxjolcanoxX",
+    points: 6,
+    skin: "https://render.crafty.gg/3d/bust/XxjolcanoxX",
+    tiers: { Uhc: "LT3" }
+  },
+            {
+    nick: "DenataXD",
+    points: 6,
+    skin: "https://render.crafty.gg/3d/bust/DenataXD",
+    tiers: { Uhc: "LT3" }
+  },
            {
     nick: "ivnvnvy",
     points: 6,
@@ -111,9 +153,9 @@ const players = [
   },
      {
     nick: "ItzLarryX",
-    points: 4,
+    points: 6,
     skin: "https://render.crafty.gg/3d/bust/User",
-    tiers: { Crystal: "HT4" }
+    tiers: { Crystal: "LT3" }
   },
     {
     nick: "Kevlali",
@@ -291,9 +333,9 @@ const players = [
   },
         {
     nick: "imevin",
-    points: 12,
+    points: 11,
     skin: "https://render.crafty.gg/3d/bust/imevin",
-    tiers: { Uhc: "HT4", Sword: "HT4", Axe: "HT4" }
+    tiers: { Uhc: "LT4", Sword: "HT4", Axe: "HT4" }
   },
       {
     nick: "1Gear",
@@ -481,6 +523,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
