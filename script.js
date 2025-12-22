@@ -1,6 +1,12 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
+             {
+    nick: "PXOJA",
+    points: 20,
+    skin: "https://render.crafty.gg/3d/bust/PXOJA",
+    tiers: { Sword: "LT3" }
+  },
             {
     nick: "p1xelreaper",
     points: 3,
@@ -523,6 +529,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
