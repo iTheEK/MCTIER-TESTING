@@ -369,9 +369,9 @@ const players = [
   },
     {
     nick: "Reinsertada",
-    points: 10,
+    points: 20,
     skin: "https://render.crafty.gg/3d/bust/Reinsertada",
-    tiers: { Sword: "HT3" }
+    tiers: { Sword: "LT2" }
   },
     {
     nick: "thiagocpvp",
@@ -529,6 +529,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
