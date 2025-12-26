@@ -1,6 +1,19 @@
 // Lista de jugadores
 // Lista de jugadores
-const players = [ {
+const players = [
+     {
+    nick: "piggadestroyer",
+    points: 1,
+    skin: "https://render.crafty.gg/3d/bust/piggadestroyer",
+    tiers: { Crystal: "LT5" }
+  },
+     {
+    nick: "Reconectado",
+    points: 3,
+    skin: "https://render.crafty.gg/3d/bust/Reconectado",
+    tiers: { Crystal: "LT4" }
+  },
+    {
     nick: "YuchiieBro",
     points: 0,
     skin: "https://render.crafty.gg/3d/bust/User",
@@ -546,6 +559,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
