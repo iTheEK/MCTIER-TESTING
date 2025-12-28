@@ -3,9 +3,9 @@
 const players = [
       {
     nick: "MalisimoMC",
-    points: 11,
+    points: 14,
     skin: "https://render.crafty.gg/3d/bust/MalisimoMC",
-    tiers: { Uhc: "LT5", Sword: "HT4", Crystal: "LT3" }
+    tiers: { Uhc: "LT5", Sword: "HT4", NethPot: "LT4", Crystal: "LT3" }
   },
      {
     nick: "piggadestroyer",
@@ -343,13 +343,7 @@ const players = [
     skin: "https://render.crafty.gg/3d/bust/Kevin__",
     tiers: { NethPot: "LT5" }
   },
-    {
-    nick: "MalisimoMC",
-    points: 3,
-    skin: "https://render.crafty.gg/3d/bust/MalisimoMC",
-    tiers: { NethPot: "LT4" }
-  },
-              {
+      {
     nick: "Sharpwa",
     points: 1,
     skin: "https://render.crafty.gg/3d/bust/Sharpwa",
@@ -565,6 +559,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
