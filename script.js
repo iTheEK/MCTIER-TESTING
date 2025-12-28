@@ -3,9 +3,9 @@
 const players = [
       {
     nick: "MalisimoMC",
-    points: 6,
+    points: 11,
     skin: "https://render.crafty.gg/3d/bust/MalisimoMC",
-    tiers: {Crystal: "LT3" }
+    tiers: { Uhc: "LT5", Sword: "HT4", Crystal: "LT3" }
   },
      {
     nick: "piggadestroyer",
@@ -565,6 +565,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
