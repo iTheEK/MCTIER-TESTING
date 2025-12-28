@@ -27,9 +27,9 @@ const players = [
   },
     {
     nick: "luupc",
-    points: 6,
+    points: 7,
     skin: "https://render.crafty.gg/3d/bust/luupc",
-    tiers: { Crystal: "LT3" }
+    tiers: { Sword: "LT5", Crystal: "LT3" }
   },
     {
     nick: "Garitalobo",
@@ -559,6 +559,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
