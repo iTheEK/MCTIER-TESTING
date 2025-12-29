@@ -1,6 +1,18 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
+       {
+    nick: "isaakpo",
+    points: 3,
+    skin: "https://render.crafty.gg/3d/bust/isaakpo",
+    tiers: { Uhc: "LT4" }
+  },
+       {
+    nick: "GatoGanson",
+    points: 6,
+    skin: "https://render.crafty.gg/3d/bust/GatoGanson",
+    tiers: { Uhc: "LT3" }
+  },
       {
     nick: "MalisimoMC",
     points: 14,
@@ -559,6 +571,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
