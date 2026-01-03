@@ -1,6 +1,24 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
+              {
+    nick: "ElYuyoMC",
+    points: 6,
+    skin: "https://render.crafty.gg/3d/bust/ElYuyoMC",
+    tiers: { Uhc: "LT4", Sword: "LT4" }
+  },
+        {
+    nick: "GeteBros",
+    points: 3,
+    skin: "https://render.crafty.gg/3d/bust/GeteBros",
+    tiers: { Uhc: "LT4" }
+  },
+        {
+    nick: "samuu_MC",
+    points: 3,
+    skin: "https://render.crafty.gg/3d/bust/samuu_MC",
+    tiers: { Mazo: "LT4"  }
+  },
        {
     nick: "isaakpo",
     points: 3,
@@ -571,6 +589,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
