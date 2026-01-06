@@ -1,11 +1,59 @@
 // Lista de jugadores
 // Lista de jugadores
 const players = [
-   {
-    nick: "User",
+    {
+    nick: "Rxvsty",
     points: 0,
-    skin: "https://render.crafty.gg/3d/bust/User",
-    tiers: { Uhc: "LT3", Sword: "LT3", NethPot: "LT3", Axe: " LT3", Smp: "LT3", DiaPot: "LT3", Crystal: "LT3", Mazo: "LT3"  }
+    skin: "https://render.crafty.gg/3d/bust/Rxvsty",
+    tiers: { Crystal: "LT3" }
+  },
+    {
+    nick: "soymalisimoxd",
+    points: 4,
+    skin: "https://render.crafty.gg/3d/bust/soymalisimoxd",
+    tiers: { Crystal: "HT4"}
+  },
+    {
+    nick: "rvud",
+    points: 4,
+    skin: "https://render.crafty.gg/3d/bust/rvud",
+    tiers: { Crystal: "HT4" }
+  },
+    {
+    nick: "evantiipack",
+    points: 2,
+    skin: "https://render.crafty.gg/3d/bust/evantiipack",
+    tiers: { Crystal: "HT5", }
+  },
+    {
+    nick: "Mqkinado01",
+    points: 2,
+    skin: "https://render.crafty.gg/3d/bust/Mqkinado01",
+    tiers: { Crystal: "HT5" }
+  },
+    {
+    nick: "MePicaElBuf0",
+    points: 4,
+    skin: "https://render.crafty.gg/3d/bust/MePicaElBuf0",
+    tiers: { Crystal: "HT4" }
+  },
+    {
+    nick: "zOldVenteen",
+    points: 3,
+    skin: "https://render.crafty.gg/3d/bust/zOldVenteen",
+    tiers: { Uhc: "LT4", Sword: "LT4", }
+  },
+    {
+    nick: "stormsmp_lat",
+    points: 2,
+    skin: "https://render.crafty.gg/3d/bust/stormsmp_lat",
+    tiers: { Sword: "HT5" }
+  },
+   {
+    nick: "death",
+    points: 6,
+    skin: "https://render.crafty.gg/3d/bust/death",
+    tiers: { Crystal: "LT3" }
   },
    {
     nick: "Leolgve",
@@ -464,10 +512,10 @@ const players = [
     tiers: { Uhc: "LT4", Sword: "LT4", NethPot: "HT5", Axe: "LT4", Smp: "LT4", DiaPot: "LT5", Crystal: "LT5", Mazo: "HT5" }
   },
     {
-    nick: "Kleveri_Tea",
-    points: 35,
+    nick: "ChinaConDrip   ",
+    points: 37,
     skin: "https://render.crafty.gg/3d/bust/Kleveri_Tea",
-    tiers: { Uhc: "LT3", Sword: "LT3", Nethpot: "LT3", Smp: "LT3", Diapot: "LT3", Axe: "HT5", Crystal: "LT5", Mazo: "HT5" }
+    tiers: { Uhc: "LT3", Sword: "LT3", Nethpot: "LT3", Smp: "LT3", Diapot: "LT3", Axe: "HT5", Crystal: "LT4", Mazo: "HT5" }
   },
   {
     nick: "Neziepls",
@@ -607,6 +655,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
