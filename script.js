@@ -8,12 +8,6 @@ const players = [
     tiers: { NethPot: "LT3" }
   },
       {
-    nick: "spinyrug9484",
-    points: 2,
-    skin: "https://render.crafty.gg/3d/bust/spinyrug9484",
-    tiers: { Sword: "HT5" }
-  },
-      {
     nick: "Kaziimee",
     points: 6,
     skin: "https://render.crafty.gg/3d/bust/Kaziimee",
@@ -65,7 +59,7 @@ const players = [
     nick: "SpinyRug9484",
     points: 2,
     skin: "https://render.crafty.gg/3d/bust/SpinyRug9484",
-    tiers: { Crystal: "HT5" }
+    tiers: { Sword, "HT5", Crystal: "HT5" }
   },
     {
     nick: "Rxvsty",
@@ -721,6 +715,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
