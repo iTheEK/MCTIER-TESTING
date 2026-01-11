@@ -83,7 +83,7 @@ const players = [
     nick: "evantiipack",
     points: 2,
     skin: "https://render.crafty.gg/3d/bust/evantiipack",
-    tiers: { Crystal: "HT5", }
+    tiers: { Crystal: "HT5" }
   },
     {
     nick: "Mqkinado01",
@@ -715,6 +715,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
