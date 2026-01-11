@@ -101,7 +101,7 @@ const players = [
     nick: "zOldVenteen",
     points: 3,
     skin: "https://render.crafty.gg/3d/bust/zOldVenteen",
-    tiers: { Uhc: "LT4", Sword: "LT4", }
+    tiers: { Uhc: "LT4", Sword: "LT4" }
   },
     {
     nick: "stormsmp_lat",
@@ -715,6 +715,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
