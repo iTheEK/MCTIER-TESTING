@@ -7,12 +7,6 @@ const players = [
     tiers: { Sword: "LT1", Mazo: "LT4"  }
   },
          {
-    nick: "Yiimii",
-    points: 3,
-    skin: "https://render.crafty.gg/3d/bust/Yiimii",
-    tiers: { Mazo: "LT4"  }
-  },
-         {
     nick: "NPdrakcPBNF20",
     points: 1,
     skin: "https://render.crafty.gg/3d/bust/NPdrakcPBNF20",
@@ -798,6 +792,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
