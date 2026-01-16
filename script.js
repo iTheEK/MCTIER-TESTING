@@ -271,9 +271,9 @@ const players = [
     tiers: { Uhc: "HT5", Sword: "LT4", Axe: " LT5",Crystal: "LT3" }
   },
              {
-    nick: "PXOJA",
+    nick: "iHk_Fairh",
     points: 20,
-    skin: "https://render.crafty.gg/3d/bust/PXOJA",
+    skin: "https://render.crafty.gg/3d/bust/iHk_Fairh",
     tiers: { Sword: "LT2" }
   },
             {
@@ -613,9 +613,9 @@ const players = [
     tiers: { Uhc: "HT5", Sword: "LT4", NethPot: "LT5", Axe: " HT5", Crystal: "HT5" }
   },
     {
-    nick: "Reinsertada",
+    nick: "DaddyVarlockkTwT",
     points: 20,
-    skin: "https://render.crafty.gg/3d/bust/Reinsertada",
+    skin: "https://render.crafty.gg/3d/bust/DaddyVarlockkTwT",
     tiers: { Sword: "LT2" }
   },
     {
@@ -633,7 +633,7 @@ const players = [
     {
     nick: "ChinaConDrip   ",
     points: 37,
-    skin: "https://render.crafty.gg/3d/bust/Kleveri_Tea",
+    skin: "https://render.crafty.gg/3d/bust/ChinaConDrip",
     tiers: { Uhc: "LT3", Sword: "LT3", Nethpot: "LT3", Smp: "LT3", Diapot: "LT3", Axe: "HT5", Crystal: "LT4", Mazo: "HT5" }
   },
   {
@@ -774,6 +774,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
