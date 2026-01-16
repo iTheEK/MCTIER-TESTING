@@ -682,9 +682,9 @@ const players = [
     tiers: { Uhc: "LT4", Sword: "LT4", SMP: "LT4", Crystal: "LT4", Mazo: "LT4" }
   },
   {
-    nick: "alquixss",
+    nick: "alquix_",
     points: 24,
-    skin: "https://render.crafty.gg/3d/bust/alquixss",
+    skin: "https://render.crafty.gg/3d/bust/alquix_",
     tiers: { Uhc: "LT3", Sword: "LT3", NethPot: "HT4", SMP: "LT3", Crystal: "HT5" }
   },
   {
@@ -774,6 +774,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
