@@ -1,5 +1,11 @@
 // Lista de jugadores
 const players = [
+          {
+    nick: "yiimi",
+    points: 48,
+    skin: "https://render.crafty.gg/3d/bust/yiimi",
+    tiers: { Sword: "LT1", Mazo: "LT4"  }
+  },
          {
     nick: "Yiimii",
     points: 3,
@@ -792,5 +798,6 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
