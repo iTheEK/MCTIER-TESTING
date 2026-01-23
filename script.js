@@ -110,9 +110,9 @@ const players = [
   },
            {
     nick: "Nicoxis23",
-    points: 6,
+    points: 10,
     skin: "https://render.crafty.gg/3d/bust/Nicoxis23",
-    tiers: { Crystal: "LT3" }
+    tiers: { Crystal: "LT3", Mazo: "HT4" }
   },
            {
     nick: "zCyrsw_",
@@ -179,12 +179,6 @@ const players = [
     points: 1,
     skin: "https://render.crafty.gg/3d/bust/Forboxcs",
     tiers: { Mazo: "LT5"  }
-  },
-           {
-    nick: "Nicoxis23",
-    points: 4,
-    skin: "https://render.crafty.gg/3d/bust/Nicoxis23",
-    tiers: { Mazo: "HT4"  }
   },
            {
     nick: "KingOfShadow895",
@@ -984,6 +978,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
