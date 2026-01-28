@@ -1,6 +1,24 @@
           // Lista de jugadores
 const players = [
            {
+    nick: "iAsombrado",
+    points: 1,
+    skin: "https://render.crafty.gg/3d/bust/iAsombrado",
+    tiers: { Mazo: "LT5"  }
+  },
+           {
+    nick: "mito2",
+    points: 4,
+    skin: "https://render.crafty.gg/3d/bust/User",
+    tiers: { NethPot: "HT5", Crystal: "LT5", Mazo: "LT5"  }
+  },
+           {
+    nick: "teo07279",
+    points: 2,
+    skin: "https://render.crafty.gg/3d/bust/teo07279",
+    tiers: { Sword: "LT5", NethPot: "LT5", Mazo: "LT5" }
+  },
+           {
     nick: "00NO",
     points: 48,
     skin: "https://render.crafty.gg/3d/bust/00NO",
@@ -110,21 +128,15 @@ const players = [
   },
            {
     nick: "Nicoxis23",
-    points: 10,
+    points: 9,
     skin: "https://render.crafty.gg/3d/bust/Nicoxis23",
-    tiers: { Crystal: "LT3", Mazo: "HT4" }
+    tiers: { Crystal: "LT3", Mazo: "LT4" }
   },
            {
     nick: "zCyrsw_",
     points: 2,
     skin: "https://render.crafty.gg/3d/bust/zCyrsw_",
     tiers: { Crystal: "HT5" }
-  },
-           {
-    nick: "mito2",
-    points: 1,
-    skin: "https://render.crafty.gg/3d/bust/mito2",
-    tiers: { Crystal: "LT5" }
   },
            {
     nick: "ThekingXx777",
@@ -140,9 +152,9 @@ const players = [
   },
            {
     nick: "Ikissme_",
-    points: 6,
+    points: 8,
     skin: "https://render.crafty.gg/3d/bust/Ikissme_",
-    tiers: { Crystal: "LT3" }
+    tiers: { Crystal: "LT3", Mazo: "HT5" }
   },
            {
     nick: "rvud",
@@ -290,9 +302,9 @@ const players = [
   },
       {
     nick: "Bry_10",
-    points: 1,
+    points: 3,
     skin: "https://render.crafty.gg/3d/bust/Bry_10",
-    tiers: { Crystal: "LT5" }
+    tiers: { Crystal: "LT5", Mazo: "HT5" }
   },
       {
     nick: "Nyzx9",
@@ -320,9 +332,9 @@ const players = [
   },
      {
     nick: "Aaronbkcmb",
-    points: 4,
+    points: 8,
     skin: "https://render.crafty.gg/3d/bust/Aaronbkcmb",
-    tiers: { NethPot: "HT4" }
+    tiers: { Uhc: "LT5", Sword: "LT4", NethPot: "HT4" }
   },
      {
     nick: "CubaConDrip",
@@ -626,9 +638,9 @@ const players = [
   },
     {
     nick: "Kevlali",
-    points: 12,
+    points: 15,
     skin: "https://render.crafty.gg/3d/bust/Kevlali",
-    tiers: { Uhc: "HT5", NethPot: "LT5", Crystal: "LT3", Mazo: "LT4" }
+    tiers: { Uhc: "HT5", Sword: "LT4", NethPot: "LT5", Crystal: "LT3", Mazo: "LT4" }
   },
    {
     nick: "OnlyIrving",
@@ -722,9 +734,9 @@ const players = [
   },
               {
     nick: "NovaJoe",
-    points: 16,
+    points: 20,
     skin: "https://render.crafty.gg/3d/bust/NovaJoe",
-    tiers: { Sword: "HT4", DiaPot: "LT4", Crystal: "HT5", Axe: "LT4", Mazo: "HT4" }
+    tiers: { Sword: "LT3", NethPot: "HT5", DiaPot: "LT4", Crystal: "HT5", Axe: "LT4", Mazo: "HT4" }
   },
             {
     nick: "1vxrzide",
@@ -978,6 +990,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
