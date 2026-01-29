@@ -748,7 +748,7 @@ const players = [
     nick: "1vxrzide",
     points: 7,
     skin: "https://render.crafty.gg/3d/bust/1vxrzide",
-    tiers: { Uhc: "HT5", Sword: "LT4", NethPot: "HT5" }
+    tiers: { Uhc: "LT5", Sword: "LT3" }
   },
           {
     nick: "Soylt3dementira",
@@ -996,6 +996,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
