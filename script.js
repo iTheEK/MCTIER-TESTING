@@ -860,9 +860,9 @@ const players = [
   },
     {
     nick: "ChinaConDrip   ",
-    points: 37,
+    points: 4,
     skin: "https://render.crafty.gg/3d/bust/ChinaConDrip",
-    tiers: { Uhc: "LT3", Sword: "LT3", Nethpot: "LT3", Smp: "LT3", Diapot: "LT3", Axe: "HT5", Crystal: "LT4", Mazo: "HT5" }
+    tiers: { Sword: "HT5", Mazo: "LT5" }
   },
   {
     nick: "Neziepls",
@@ -1002,6 +1002,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
