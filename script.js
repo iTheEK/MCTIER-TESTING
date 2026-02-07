@@ -1166,9 +1166,9 @@ const players = [
   },
   {
     nick: "Neziepls",
-    points: 25,
+    points: 26,
     skin: "https://render.crafty.gg/3d/bust/Neziepls",
-    tiers: { Uhc: "HT4", Sword: "HT4", NethPot: "HT4", Axe: " LT4", Smp: "LT4", DiaPot: "LT4", Crystal: "LT4", Mazo: "LT5" }
+    tiers: { Uhc: "HT4", Sword: "HT4", NethPot: "HT4", Axe: " LT4", Smp: "HT4", DiaPot: "LT4", Crystal: "LT4", Mazo: "LT5" }
   },
            {
     nick: "Mariv_",
@@ -1308,6 +1308,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
