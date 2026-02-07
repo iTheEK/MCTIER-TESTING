@@ -1,6 +1,18 @@
           // Lista de jugadores
 const players = [
            {
+    nick: "renox",
+    points: 4,
+    skin: "https://render.crafty.gg/3d/bust/renox",
+    tiers: { Sword: "HT4" }
+  },
+           {
+    nick: "Alexisfer21",
+    points: 2,
+    skin: "https://render.crafty.gg/3d/bust/Alexisfer21",
+    tiers: { Sword: "HT5" }
+  },
+           {
     nick: "Matias_35x",
     points: 1,
     skin: "https://render.crafty.gg/3d/bust/Matias_35x",
@@ -1296,6 +1308,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
