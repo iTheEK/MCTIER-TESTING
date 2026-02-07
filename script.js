@@ -55,12 +55,6 @@ const players = [
     tiers: { Sword: "LT3" }
   },
            {
-    nick: "User",
-    points: 0,
-    skin: "https://render.crafty.gg/3d/bust/User",
-    tiers: { Uhc: "LT3", Sword: "LT3", NethPot: "LT3", Axe: " LT3", Smp: "LT3", DiaPot: "LT3", Crystal: "LT3", Mazo: "LT3"  }
-  },
-           {
     nick: "MrJ_",
     points: 1,
     skin: "https://render.crafty.gg/3d/bust/User",
@@ -106,7 +100,7 @@ const players = [
     nick: "GoatEzy",
     points: 8,
     skin: "https://render.crafty.gg/3d/bust/GoatEzy",
-    tiers: { Crystal: "LT3", Mazo: "HT5 }
+    tiers: { Crystal: "LT3", Mazo: "HT5" }
   },
            {
     nick: "Rubepro22",
@@ -164,7 +158,7 @@ const players = [
   },
            {
     nick: "inxlvidable_",
-    points: 7          ,
+    points: 7,
     skin: "https://render.crafty.gg/3d/bust/inxlvidable_",
     tiers: { NethPot: "HT4", Crystal: "LT4" }
   },
@@ -214,7 +208,7 @@ const players = [
     nick: "GeometryZeroMC",
     points: 2,
     skin: "https://render.crafty.gg/3d/bust/GeometryZeroMC",
-    tiers: { Uhc: "HT5", Mazo: "HT5"  }
+    tiers: { Uhc: "HT5", Mazo: "HT5" }
   },
            {
     nick: "zenkai",
@@ -1296,5 +1290,6 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
