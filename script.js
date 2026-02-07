@@ -142,25 +142,25 @@ const players = [
     nick: "Cxnquista",
     points: 1,
     skin: "https://render.crafty.gg/3d/bust/Cxnquista",
-    tiers: { Mazo: "LT5"  }
+    tiers: { Mazo: "LT5" }
   },
            {
     nick: "Gojon7u7",
     points: 3,
     skin: "https://render.crafty.gg/3d/bust/Gojon7u7",
-    tiers: { Mazo: "LT4"  }
+    tiers: { Mazo: "LT4" }
   },
            {
     nick: "22_lauty",
     points: 1,
     skin: "https://render.crafty.gg/3d/bust/22_lauty",
-    tiers: { Mazo: "LT5"  }
+    tiers: { Mazo: "LT5" }
   },
            {
     nick: "Arkana79_",
     points: 8,
     skin: "https://render.crafty.gg/3d/bust/Arkana79_",
-    tiers: { Crystal: "LT3", Mazo: "HT5"  }
+    tiers: { Crystal: "LT3", Mazo: "HT5" }
   },
            {
     nick: "inxlvidable_",
@@ -310,7 +310,7 @@ const players = [
     nick: "iAsombrado",
     points: 1,
     skin: "https://render.crafty.gg/3d/bust/iAsombrado",
-    tiers: { Mazo: "LT5"  }
+    tiers: { Mazo: "LT5" }
   },
            {
     nick: "mito2",
@@ -400,13 +400,13 @@ const players = [
     nick: "Iker34",
     points: 3,
     skin: "https://render.crafty.gg/3d/bust/Iker34",
-    tiers: { Mazo: "LT4"  }
+    tiers: { Mazo: "LT4" }
   },
            {
     nick: "Xx_SHADOW_xX99",
     points: 3,
     skin: "https://render.crafty.gg/3d/bust/Xx_SHADOW_xX99",
-    tiers: { Sword: "LT5", Mazo: "HT5"  }
+    tiers: { Sword: "LT5", Mazo: "HT5" }
   },
            {
     nick: "itzSlowwz",
@@ -472,7 +472,7 @@ const players = [
     nick: "elmemes7799932",
     points: 2,
     skin: "https://render.crafty.gg/3d/bust/elmemes7799932",
-    tiers: { Crystal: "HT5"  }
+    tiers: { Crystal: "HT5" }
   },
            {
     nick: "reymer_mc",
@@ -496,7 +496,7 @@ const players = [
     nick: "Forboxcs",
     points: 1,
     skin: "https://render.crafty.gg/3d/bust/Forboxcs",
-    tiers: { Mazo: "LT5"  }
+    tiers: { Mazo: "LT5" }
   },
            {
     nick: "KingOfShadow895",
@@ -808,7 +808,7 @@ const players = [
     nick: "ian002",
     points: 1,
     skin: "https://render.crafty.gg/3d/bust/ian002",
-    tiers: { Mazo: "LT5"  }
+    tiers: { Mazo: "LT5" }
   },
             {
     nick: "eneaslara",
@@ -994,7 +994,7 @@ const players = [
     nick: "cookedfr_",
     points: 6,
     skin: "https://render.crafty.gg/3d/bust/cookedfr_",
-    tiers: { Uhc: "LT3", }
+    tiers: { Uhc: "LT3" }
   },
            {
     nick: "Alstardust",
@@ -1296,4 +1296,5 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
