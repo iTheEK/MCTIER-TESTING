@@ -64,7 +64,7 @@ const players = [
     nick: "CheaterPlayer",
     points: 3,
     skin: "https://render.crafty.gg/3d/bust/CheaterPlayer",
-    tiers: { Mazo: "LT4"  }
+    tiers: { Mazo: "LT4" }
   },
            {
     nick: "b3atzzpurmin0te",
@@ -94,7 +94,7 @@ const players = [
     nick: "esteban445zz",
     points: 2,
     skin: "https://render.crafty.gg/3d/bust/esteban445zz",
-    tiers: { Crystal: "LT5", Mazo: "LT5"  }
+    tiers: { Crystal: "LT5", Mazo: "LT5" }
   },
            {
     nick: "chiterbot",
@@ -124,7 +124,7 @@ const players = [
     nick: "wqkii",
     points: 12,
     skin: "https://render.crafty.gg/3d/bust/wqkii",
-    tiers: { Crystal: "LT3", Mazo: "LT3"  }
+    tiers: { Crystal: "LT3", Mazo: "LT3" }
   },
            {
     nick: "iJxliana_",
@@ -172,19 +172,19 @@ const players = [
     nick: "Regidragos",
     points: 20,
     skin: "https://render.crafty.gg/3d/bust/Regidragos",
-    tiers: {  Sword: "LT3", Smp: "LT3", Crystal: "HT5", Mazo: "LT3"  }
+    tiers: {  Sword: "LT3", Smp: "LT3", Crystal: "HT5", Mazo: "LT3" }
   },
            {
     nick: "IdeasOrejas",
     points: 10,
     skin: "https://render.crafty.gg/3d/bust/IdeasOrejas",
-    tiers: { Mazo: "HT3"  }
+    tiers: { Mazo: "HT3" }
   },
            {
     nick: "zTeiszch",
     points: 1,
     skin: "https://render.crafty.gg/3d/bust/zTeiszch",
-    tiers: { Mazo: "LT5"  }
+    tiers: { Mazo: "LT5" }
   },
            {
     nick: "qEvxn",
@@ -568,7 +568,7 @@ const players = [
     nick: "7zql1k",
     points: 10,
     skin: "https://render.crafty.gg/3d/bust/7zql1k",
-    tiers: { Crystal: "HT3          " }
+    tiers: { Crystal: "HT3" }
   },
            {
     nick: "chorireallybad",
@@ -634,7 +634,7 @@ const players = [
     nick: "itzSlowwz",
     points: 1,
     skin: "https://render.crafty.gg/3d/bust/itzSlowwz",
-    tiers: { Mazo: "LT5"  }
+    tiers: { Mazo: "LT5" }
   },
            {
     nick: "kalzq",
@@ -754,7 +754,7 @@ const players = [
     nick: "NPdrakcPBNF20",
     points: 1,
     skin: "https://render.crafty.gg/3d/bust/NPdrakcPBNF20",
-    tiers: { Mazo: "LT5"  }
+    tiers: { Mazo: "LT5" }
   },
          {
     nick: "MJC_",
@@ -1518,6 +1518,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
