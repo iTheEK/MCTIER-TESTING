@@ -88,7 +88,7 @@ const players = [
     nick: "AndresEz",
     points: 14,
     skin: "https://render.crafty.gg/3d/bust/AndresEz",
-    tiers: { Sword: "LT3", Crystal: "LT3" , Mazo "HT5" }
+    tiers: { Sword: "LT3", Crystal: "LT3", Mazo "HT5" }
   },
            {
     nick: "esteban445zz",
@@ -1120,7 +1120,7 @@ const players = [
     nick: "Darihnzv",
     points: 1,
     skin: "https://render.crafty.gg/3d/bust/Darihnzv",
-    tiers: { Uhc: "LT5"  }
+    tiers: { Uhc: "LT5" }
   },
       {
     nick: "B_axelprogamer",
@@ -1518,6 +1518,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
