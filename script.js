@@ -302,9 +302,9 @@ const players = [
   },
            {
     nick: "iAsombrado",
-    points: 5,
+    points: 19,
     skin: "https://render.crafty.gg/3d/bust/iAsombrado",
-    tiers: { Uhc: "HT4", Axe: "LT5", Mazo: "LT5" }
+    tiers: { Uhc: "HT4", Sword: "HT3", Axe: "HT4", Mazo: "LT5" }
   },
            {
     nick: "Perulovers",
@@ -1458,4 +1458,5 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
