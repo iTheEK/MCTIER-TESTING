@@ -1,6 +1,12 @@
           // Lista de jugadores
 const players = [
            {
+    nick: "HAZHIRA ",
+    points: 14,
+    skin: "https://render.crafty.gg/3d/bust/HAZHIRA ",
+    tiers: { Uhc: "HT4", Sword: "HT3" }
+  },
+           {
     nick: "Hieloalcarbon",
     points: 4,
     skin: "https://render.crafty.gg/3d/bust/Hieloalcarbon",
@@ -56,9 +62,9 @@ const players = [
   },
            {
     nick: "KingSantiNew",
-    points: 11,
+    points: 9,
     skin: "https://render.crafty.gg/3d/bust/KingSantiNew",
-    tiers: { Uhc: "HT5", Sword: "LT3", NethPot: "LT5", Crystal: "HT5" }
+    tiers: { Uhc: "HT5", Sword: "HT4", NethPot: "LT5", Crystal: "HT5" }
   },
            {
     nick: "CheaterPlayer",
@@ -302,9 +308,9 @@ const players = [
   },
            {
     nick: "iAsombrado",
-    points: 19,
+    points: 13,
     skin: "https://render.crafty.gg/3d/bust/iAsombrado",
-    tiers: { Uhc: "HT4", Sword: "HT3", Axe: "HT4", Mazo: "LT5" }
+    tiers: { Uhc: "HT4", Sword: "HT4", Axe: "HT4", Mazo: "LT5" }
   },
            {
     nick: "Perulovers",
@@ -463,12 +469,6 @@ const players = [
     tiers: { Sword: "LT5" }
   },
            {
-    nick: "matz15_",
-    points: 6,
-    skin: "https://render.crafty.gg/3d/bust/matz15_",
-    tiers: { Sword: "LT3" }
-  },
-           {
     nick: "janogamer2023",
     points: 6,
     skin: "https://render.crafty.gg/3d/bust/janogamer2023",
@@ -530,9 +530,9 @@ const players = [
   },
            {
     nick: "Matz15_",
-    points: 22,
+    points: 18,
     skin: "https://render.crafty.gg/3d/bust/Matz15_",
-    tiers: { Sword: "LT3", NethPot: "HT3", Diapot: "LT3" }
+    tiers: { Sword: "LT3", NethPot: "LT3", Diapot: "LT3" }
   },
            {
     nick: "ssuii",
@@ -1458,5 +1458,6 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
