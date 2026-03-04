@@ -1202,9 +1202,9 @@ const players = [
   },
               {
     nick: "NovaJoe",
-    points: 24,
+    points: 27,
     skin: "https://render.crafty.gg/3d/bust/NovaJoe",
-    tiers: { Uhc: "LT4", Sword: "HT5", NethPot: "HT4", DiaPot: "HT4", Crystal: "LT5", Axe: "HT5", SMP: "LT4", Mazo: "HT4" }
+    tiers: { Uhc: "LT4", Sword: "HT5", NethPot: "HT4", DiaPot: "HT4", Crystal: "LT5", Axe: "LT4", SMP: "LT4", Mazo: "LT3" }
   },
             {
     nick: "1vxrzide",
@@ -1464,6 +1464,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
