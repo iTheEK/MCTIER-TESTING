@@ -1,6 +1,12 @@
           // Lista de jugadores
 const players = [
            {
+    nick: "Evelynwn",
+    points: 20,
+    skin: "https://render.crafty.gg/3d/bust/Evelynwn",
+    tiers: { Uhc: "LT4", Sword: "HT4", DiaPot: "LT3", Crystal: "LT3", Mazo: "LT5"  }
+  },
+           {
     nick: "HAZHIRA ",
     points: 14,
     skin: "https://render.crafty.gg/3d/bust/HAZHIRA ",
@@ -1196,9 +1202,9 @@ const players = [
   },
               {
     nick: "NovaJoe",
-    points: 23,
+    points: 24,
     skin: "https://render.crafty.gg/3d/bust/NovaJoe",
-    tiers: { Uhc: "LT4", Sword: "HT5", NethPot: "HT4", DiaPot: "LT4", Crystal: "LT5", Axe: "HT5", SMP: "LT4", Mazo: "HT4" }
+    tiers: { Uhc: "LT4", Sword: "HT5", NethPot: "HT4", DiaPot: "HT4", Crystal: "LT5", Axe: "HT5", SMP: "LT4", Mazo: "HT4" }
   },
             {
     nick: "1vxrzide",
@@ -1458,6 +1464,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
