@@ -91,9 +91,9 @@ const players = [
     tiers: { Crystal: "LT2" }
   },
            {
-    nick: "fywg",
+    nick: "NewDaroo",
     points: 32,
-    skin: "https://render.crafty.gg/3d/bust/fywg",
+    skin: "https://render.crafty.gg/3d/bust/NewDaroo",
     tiers: { Uhc: "LT3", Sword: "LT3", NethPot: "RLT2" }
   },
            {
@@ -719,12 +719,6 @@ const players = [
     points: 2,
     skin: "https://render.crafty.gg/3d/bust/Anderqxk",
     tiers: { Crystal: "HT5" }
-  },
-          {
-    nick: "Daantjaa",
-    points: 47,
-    skin: "https://render.crafty.gg/3d/bust/Daantjaa",
-    tiers: { Sword: "LT1", Mazo: "HT5"  }
   },
          {
     nick: "NPdrakcPBNF20",
@@ -1470,6 +1464,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
