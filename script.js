@@ -1263,7 +1263,7 @@ const players = [
           {
     nick: "Curada",
     points: 24,
-    skin: "https://render.crafty.gg/3d/bust/Ivnvy",
+    skin: "https://render.crafty.gg/3d/bust/Curada",
     tiers: { Uhc: "LT4", Sword: "HT4", DiaPot: "LT3",  Crystal: "HT3", Mazo: "LT5" }
   },
         {
@@ -1464,6 +1464,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
