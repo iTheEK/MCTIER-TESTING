@@ -967,9 +967,9 @@ const players = [
     tiers: { Uhc: "HT5", Sword: "LT4", Axe: "LT5",Crystal: "LT3" }
   },
              {
-    nick: "EdxLy",
+    nick: "PXOJA",
     points: 20,
-    skin: "https://render.crafty.gg/3d/bust/EdxLy",
+    skin: "https://render.crafty.gg/3d/bust/PXOJA",
     tiers: { Sword: "LT2" }
   },
             {
@@ -1147,9 +1147,9 @@ const players = [
     tiers: { Uhc: "LT5", Sword: "HT5", Axe: "HT5" }
   },
            {
-    nick: "Lsonly_",
+    nick: "FranciscoG4y",
     points: 12,
-    skin: "https://render.crafty.gg/3d/bust/Lsonly_",
+    skin: "https://render.crafty.gg/3d/bust/FranciscoG4y",
     tiers: { Uhc: "LT3", NethPot: "LT3" }
   },
            {
@@ -1177,10 +1177,10 @@ const players = [
     tiers: { Uhc: "LT5", Sword: "HT5", NethPot: "LT5",Crystal: "HT5" }
   },
     {
-    nick: "ItzRealMeBS900",
-    points: 10,
-    skin: "https://render.crafty.gg/3d/bust/ItzRealMeBS900",
-    tiers: { Uhc: "HT5", Sword: "HT5", NethPot: "HT5", Crystal: "HT4" }
+    nick: "Macro0Q",
+    points: 19,
+    skin: "https://render.crafty.gg/3d/bust/Macro0Q",
+    tiers: { Uhc: "LT4", Sword: "HT5", NethPot: "HT5", Axe: "LT5", Crystal: "HT3" }
   },
               {
     nick: "MRZOMBIEGOD",
@@ -1231,9 +1231,9 @@ const players = [
     tiers: { Crystal: "LT4", Mazo: "LT5" }
   },
         {
-    nick: "RickyEdits",
+    nick: "stryxc",
     points: 18,
-    skin: "https://render.crafty.gg/3d/bust/RickyEdits",
+    skin: "https://render.crafty.gg/3d/bust/stryxc",
     tiers: { Uhc: "LT3", Sword: "LT3", NethPot: "LT3" }
   },
       {
@@ -1261,10 +1261,10 @@ const players = [
     tiers: { Sword: "LT3" }
   },
           {
-    nick: "Ivnvy",
-    points: 19,
+    nick: "Curada",
+    points: 24,
     skin: "https://render.crafty.gg/3d/bust/Ivnvy",
-    tiers: { Uhc: "HT4", Sword: "LT4", NethPot: "LT3",  Crystal: "HT4", Mazo: "HT5" }
+    tiers: { Uhc: "LT4", Sword: "HT4", DiaPot: "LT3",  Crystal: "HT3", Mazo: "LT5" }
   },
         {
     nick: "imevin",
@@ -1464,6 +1464,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
