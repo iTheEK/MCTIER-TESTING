@@ -2,9 +2,9 @@
 const players = [
            {
     nick: "Zathot",
-    points: 30,
+    points: 47,
     skin: "https://render.crafty.gg/3d/bust/Zathot",
-    tiers: { Crystal: "HT2" }
+    tiers: { Crystal: "LT1", Mazo: "HT5" }
   },
            {
     nick: "Evelynwn",
@@ -1464,6 +1464,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Render inicial
 renderPlayers(rankedPlayers);
+
 
 
 
