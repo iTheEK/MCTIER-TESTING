@@ -1,6 +1,12 @@
           // Lista de jugadores
 const players = [
            {
+    nick: "iKingEzut",
+    points: 19,
+    skin: "https://render.crafty.gg/3d/bust/iKingEzut",
+    tiers: { Uhc: "HT5", Sword: "HT4", NethPot: "LT3", Axe: " LT5", Crystal: "LT3" }
+  },
+           {
     nick: "Zathot",
     points: 47,
     skin: "https://render.crafty.gg/3d/bust/Zathot",
@@ -1202,9 +1208,9 @@ const players = [
   },
               {
     nick: "NovaJoe",
-    points: 28,
+    points: 27,
     skin: "https://render.crafty.gg/3d/bust/NovaJoe",
-    tiers: { Uhc: "LT4", Sword: "LT4", NethPot: "LT4", DiaPot: "HT4", Crystal: "LT4", Axe: "LT4", SMP: "LT4", Mazo: "LT3" }
+    tiers: { Uhc: "HT5", Sword: "LT4", NethPot: "LT4", DiaPot: "HT4", Crystal: "LT4", Axe: "LT4", SMP: "LT4", Mazo: "LT3" }
   },
             {
     nick: "1vxrzide",
