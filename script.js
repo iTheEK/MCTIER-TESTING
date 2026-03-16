@@ -8,9 +8,9 @@ const players = [
   },
            {
     nick: "Zathot",
-    points: 47,
+    points: 62,
     skin: "https://render.crafty.gg/3d/bust/Zathot",
-    tiers: { Crystal: "LT1", Mazo: "HT5" }
+    tiers: { Crystal: "HT1", Mazo: "HT5" }
   },
            {
     nick: "Evelynwn",
