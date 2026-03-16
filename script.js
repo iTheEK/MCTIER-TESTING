@@ -1367,9 +1367,9 @@ const players = [
   },
   {
     nick: "yNeoo",
-    points: 53,
+    points: 44,
     skin: "https://render.crafty.gg/3d/bust/yNeoo",
-    tiers: { Crystal: "RHT2", NethPot: "LT3", DiaPot: "LT3", Mazo: "LT3", Uhc: "LT4", Sword: "LT4" }
+    tiers: { Crystal: "LT2", NethPot: "LT3", DiaPot: "LT3", Mazo: "LT3", Uhc: "LT4", Sword: "LT4" }
   },
   {
     nick: "NoSoyHenry",
