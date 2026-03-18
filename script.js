@@ -1332,12 +1332,6 @@ const players = [
     skin: "https://render.crafty.gg/3d/bust/Neziepls",
     tiers: { Uhc: "HT4", Sword: "HT4", NethPot: "HT4", Axe: " LT4", Smp: "HT4", DiaPot: "LT4", Crystal: "LT4", Mazo: "HT5" }
   },
-           {
-    nick: "Mariv_",
-    points: 0,
-    skin: "https://render.crafty.gg/3d/bust/Mariv",
-    tiers: { Uhc: "HT1", Sword: "HT1", NethPot: "HT1", Axe: " HT2", Crystal: "LT10" }
-  },
   {
     nick: "_vxzll",
     points: 6,
